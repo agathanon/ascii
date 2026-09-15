@@ -8,3 +8,5 @@ the only ascii editors that supports 99-color mirc format.
 ```
 /alias pump /exec -o -sh while IFS= read -r l\; do printf "%s\n" "$l"\; sleep 0.3\; done < $1
 ```
+
+![Tarot card: The Tower (agatha, 2026)](.img/tarot-tower.png)
