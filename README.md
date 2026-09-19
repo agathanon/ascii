@@ -1,8 +1,33 @@
 # ascii art
 _repository of ascii art_
 
-greetz to jewbird for creating [asciibird](https://github.com/birdneststream/asciibird), one of
-the only ascii editors that supports 99-color mirc format.
+## gallery
+
+<!-- GALLERY:START -->
+
+### agatha
+
+<table>
+<tr>
+<td align="center"><a href=".img/agatha/hello.png"><img src=".img/agatha/hello_thumb.png" alt="hello.txt"></a><br><a href="agatha/hello.txt">hello.txt</a></td>
+<td align="center"><a href=".img/agatha/tarot-hermit.png"><img src=".img/agatha/tarot-hermit_thumb.png" alt="tarot-hermit.txt"></a><br><a href="agatha/tarot-hermit.txt">tarot-hermit.txt</a></td>
+<td align="center"><a href=".img/agatha/tarot-nineswords.png"><img src=".img/agatha/tarot-nineswords_thumb.png" alt="tarot-nineswords.txt"></a><br><a href="agatha/tarot-nineswords.txt">tarot-nineswords.txt</a></td>
+<td align="center"><a href=".img/agatha/tarot-tower.png"><img src=".img/agatha/tarot-tower_thumb.png" alt="tarot-tower.txt"></a><br><a href="agatha/tarot-tower.txt">tarot-tower.txt</a></td>
+</tr>
+<tr>
+<td align="center"><a href=".img/agatha/wtc25.png"><img src=".img/agatha/wtc25_thumb.png" alt="wtc25.txt"></a><br><a href="agatha/wtc25.txt">wtc25.txt</a></td>
+</tr>
+</table>
+
+### psyk0
+
+<table>
+<tr>
+<td align="center"><a href=".img/psyk0/pissflection.png"><img src=".img/psyk0/pissflection_thumb.png" alt="pissflection.txt"></a><br><a href="psyk0/pissflection.txt">pissflection.txt</a></td>
+</tr>
+</table>
+
+<!-- GALLERY:END -->
 
 ## how to pump
 **pumping with weechat**:
@@ -65,30 +90,14 @@ on SIGNAL:pl_tick {
 }
 ```
 
-## gallery
 
-<!-- GALLERY:START -->
+## greetz
 
-### agatha
+greetz to jewbird for creating [asciibird](https://github.com/birdneststream/asciibird), one of
+the only ascii editors that supports 99-color mirc format, as well as [a2m2a](https://github.com/birdneststream/a2m2a)
+for `.png` generation.
 
-<table>
-<tr>
-<td align="center"><a href=".img/agatha/hello.png"><img src=".img/agatha/hello_thumb.png" alt="hello.txt"></a><br><a href="agatha/hello.txt">hello.txt</a></td>
-<td align="center"><a href=".img/agatha/tarot-hermit.png"><img src=".img/agatha/tarot-hermit_thumb.png" alt="tarot-hermit.txt"></a><br><a href="agatha/tarot-hermit.txt">tarot-hermit.txt</a></td>
-<td align="center"><a href=".img/agatha/tarot-nineswords.png"><img src=".img/agatha/tarot-nineswords_thumb.png" alt="tarot-nineswords.txt"></a><br><a href="agatha/tarot-nineswords.txt">tarot-nineswords.txt</a></td>
-<td align="center"><a href=".img/agatha/tarot-tower.png"><img src=".img/agatha/tarot-tower_thumb.png" alt="tarot-tower.txt"></a><br><a href="agatha/tarot-tower.txt">tarot-tower.txt</a></td>
-</tr>
-<tr>
-<td align="center"><a href=".img/agatha/wtc25.png"><img src=".img/agatha/wtc25_thumb.png" alt="wtc25.txt"></a><br><a href="agatha/wtc25.txt">wtc25.txt</a></td>
-</tr>
-</table>
+big props to the team behind [HexDroid](https://github.com/boxlabss/HexDroid), as there is finally an android IRC client that
+renders art extremely well. being able to pump from it is also a big plus.
 
-### psyk0
-
-<table>
-<tr>
-<td align="center"><a href=".img/psyk0/pissflection.png"><img src=".img/psyk0/pissflection_thumb.png" alt="pissflection.txt"></a><br><a href="psyk0/pissflection.txt">pissflection.txt</a></td>
-</tr>
-</table>
-
-<!-- GALLERY:END -->
+**IRC NEVER DIES**
