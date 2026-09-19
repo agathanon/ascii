@@ -4,6 +4,7 @@ _repository of art created by agatha_
 greetz to jewbird for creating [asciibird](https://github.com/birdneststream/asciibird), one of
 the only ascii editors that supports 99-color mirc format.
 
+## how to pump
 **pumping with weechat**:
 ```
 /set irc.server.efnet.anti_flood_prio_low 0
@@ -64,4 +65,30 @@ on SIGNAL:pl_tick {
 }
 ```
 
-![Tarot card: The Tower (agatha, 2026)](.img/tarot-tower.png)
+## gallery
+
+<!-- GALLERY:START -->
+
+### agatha
+
+<table>
+<tr>
+<td align="center"><a href="agatha/hello.txt"><img src=".img/agatha/hello_thumb.png" alt="Hello"></a><br><b>Hello</b></td>
+<td align="center"><a href="agatha/tarot-hermit.txt"><img src=".img/agatha/tarot-hermit_thumb.png" alt="Tarot Hermit"></a><br><b>Tarot Hermit</b></td>
+<td align="center"><a href="agatha/tarot-nineswords.txt"><img src=".img/agatha/tarot-nineswords_thumb.png" alt="Tarot Nineswords"></a><br><b>Tarot Nineswords</b></td>
+</tr>
+<tr>
+<td align="center"><a href="agatha/tarot-tower.txt"><img src=".img/agatha/tarot-tower_thumb.png" alt="Tarot Tower"></a><br><b>Tarot Tower</b></td>
+<td align="center"><a href="agatha/wtc25.txt"><img src=".img/agatha/wtc25_thumb.png" alt="Wtc25"></a><br><b>Wtc25</b></td>
+</tr>
+</table>
+
+### psyk0
+
+<table>
+<tr>
+<td align="center"><a href="psyk0/pissflection.txt"><img src=".img/psyk0/pissflection_thumb.png" alt="Pissflection"></a><br><b>Pissflection</b></td>
+</tr>
+</table>
+
+<!-- GALLERY:END -->
