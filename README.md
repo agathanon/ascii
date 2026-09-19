@@ -73,13 +73,13 @@ on SIGNAL:pl_tick {
 
 <table>
 <tr>
-<td align="center"><a href="agatha/hello.txt"><img src=".img/agatha/hello_thumb.png" alt="Hello"></a><br><b>Hello</b></td>
-<td align="center"><a href="agatha/tarot-hermit.txt"><img src=".img/agatha/tarot-hermit_thumb.png" alt="Tarot Hermit"></a><br><b>Tarot Hermit</b></td>
-<td align="center"><a href="agatha/tarot-nineswords.txt"><img src=".img/agatha/tarot-nineswords_thumb.png" alt="Tarot Nineswords"></a><br><b>Tarot Nineswords</b></td>
+<td align="center"><a href=".img/agatha/hello.png"><img src=".img/agatha/hello_thumb.png" alt="hello.txt"></a><br><a href="agatha/hello.txt">hello.txt</a></td>
+<td align="center"><a href=".img/agatha/tarot-hermit.png"><img src=".img/agatha/tarot-hermit_thumb.png" alt="tarot-hermit.txt"></a><br><a href="agatha/tarot-hermit.txt">tarot-hermit.txt</a></td>
+<td align="center"><a href=".img/agatha/tarot-nineswords.png"><img src=".img/agatha/tarot-nineswords_thumb.png" alt="tarot-nineswords.txt"></a><br><a href="agatha/tarot-nineswords.txt">tarot-nineswords.txt</a></td>
+<td align="center"><a href=".img/agatha/tarot-tower.png"><img src=".img/agatha/tarot-tower_thumb.png" alt="tarot-tower.txt"></a><br><a href="agatha/tarot-tower.txt">tarot-tower.txt</a></td>
 </tr>
 <tr>
-<td align="center"><a href="agatha/tarot-tower.txt"><img src=".img/agatha/tarot-tower_thumb.png" alt="Tarot Tower"></a><br><b>Tarot Tower</b></td>
-<td align="center"><a href="agatha/wtc25.txt"><img src=".img/agatha/wtc25_thumb.png" alt="Wtc25"></a><br><b>Wtc25</b></td>
+<td align="center"><a href=".img/agatha/wtc25.png"><img src=".img/agatha/wtc25_thumb.png" alt="wtc25.txt"></a><br><a href="agatha/wtc25.txt">wtc25.txt</a></td>
 </tr>
 </table>
 
@@ -87,7 +87,7 @@ on SIGNAL:pl_tick {
 
 <table>
 <tr>
-<td align="center"><a href="psyk0/pissflection.txt"><img src=".img/psyk0/pissflection_thumb.png" alt="Pissflection"></a><br><b>Pissflection</b></td>
+<td align="center"><a href=".img/psyk0/pissflection.png"><img src=".img/psyk0/pissflection_thumb.png" alt="pissflection.txt"></a><br><a href="psyk0/pissflection.txt">pissflection.txt</a></td>
 </tr>
 </table>
 

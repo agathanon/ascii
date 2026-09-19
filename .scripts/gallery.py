@@ -18,22 +18,30 @@ a = p.parse_args()
 art = sorted(Path(f) for f in a.files)
 img_dir = Path(a.img_dir)
 
+def full(f):
+    return img_dir / f.parent / f"{f.stem}.png"
+
 def thumb(f):
     return img_dir / f.parent / f"{f.stem}_thumb.png"
 
-# Remove generated thumbnails whose source .txt no longer exists.
-# Only ever considers .img/<dir>/*_thumb.png; nothing else in .img is touched.
+# Remove generated images whose source .txt no longer exists. Orphans are found
+# via .img/<dir>/*_thumb.png, and the matching full-size name.png goes with it;
+# nothing else in .img is touched.
 wanted = {thumb(f) for f in art}
 for png in img_dir.glob("*/*_thumb.png"):
     if png not in wanted:
-        png.unlink()
-        print(f"pruned {png}")
+        sibling = png.with_name(png.name[:-len("_thumb.png")] + ".png")
+        for victim in (png, sibling):
+            if victim.exists():
+                victim.unlink()
+                print(f"pruned {victim}")
 
 def cell(f):
-    title = escape(f.stem.replace("-", " ").replace("_", " ").title())
-    return (f"<td align=\"center\"><a href=\"{quote(f.as_posix())}\">"
-            f"<img src=\"{quote(thumb(f).as_posix())}\" alt=\"{title}\"></a>"
-            f"<br><b>{title}</b></td>")
+    # Thumbnail links to the full-size PNG; the filename below links to the .txt
+    name = escape(f.name)
+    return (f"<td align=\"center\"><a href=\"{quote(full(f).as_posix())}\">"
+            f"<img src=\"{quote(thumb(f).as_posix())}\" alt=\"{name}\"></a>"
+            f"<br><a href=\"{quote(f.as_posix())}\">{name}</a></td>")
 
 sections = []
 for artist, files in groupby(art, key=lambda f: f.parent.name):
