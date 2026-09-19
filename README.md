@@ -100,4 +100,6 @@ for `.png` generation.
 big props to the team behind [HexDroid](https://github.com/boxlabss/HexDroid), as there is finally an android IRC client that
 renders art extremely well. being able to pump from it is also a big plus.
 
+shoutouts to all the real niggas on efnet.
+
 **IRC NEVER DIES**
