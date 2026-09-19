@@ -1,5 +1,5 @@
 # ascii art
-_repository of art created by agatha_
+_repository of ascii art_
 
 greetz to jewbird for creating [asciibird](https://github.com/birdneststream/asciibird), one of
 the only ascii editors that supports 99-color mirc format.
