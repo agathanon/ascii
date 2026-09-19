@@ -16,6 +16,7 @@ _repository of ascii art_
 </tr>
 <tr>
 <td align="center"><a href=".img/agatha/wtc25.png"><img src=".img/agatha/wtc25_thumb.png" alt="wtc25.txt"></a><br><a href="agatha/wtc25.txt">wtc25.txt</a></td>
+<td align="center"><a href=".img/agatha/zyn.png"><img src=".img/agatha/zyn_thumb.png" alt="zyn.txt"></a><br><a href="agatha/zyn.txt">zyn.txt</a></td>
 </tr>
 </table>
 
