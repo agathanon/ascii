@@ -37,11 +37,12 @@ for png in img_dir.glob("*/*_thumb.png"):
                 print(f"pruned {victim}")
 
 def cell(f):
-    # Thumbnail links to the full-size PNG; the filename below links to the .txt
+    # Thumbnail links to the full-size PNG; the filename below links to the raw .txt
+    # (?raw=true makes GitHub redirect the relative link to the raw file)
     name = escape(f.name)
     return (f"<td align=\"center\"><a href=\"{quote(full(f).as_posix())}\">"
             f"<img src=\"{quote(thumb(f).as_posix())}\" alt=\"{name}\"></a>"
-            f"<br><a href=\"{quote(f.as_posix())}\">{name}</a></td>")
+            f"<br><a href=\"{quote(f.as_posix())}?raw=true\">{name}</a></td>")
 
 sections = []
 for artist, files in groupby(art, key=lambda f: f.parent.name):
