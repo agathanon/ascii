@@ -91,6 +91,10 @@ on SIGNAL:pl_tick {
 }
 ```
 
+_note: as of HexDroid v1.7.5 there is now support for a media picker, so it might be possible_
+_pump from local files, but i'm going to keep using this http-based one, as it's easier to_
+_maintain a git repo than it is to sync shit to my phone_
+
 
 ## greetz
 
