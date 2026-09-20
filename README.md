@@ -9,15 +9,17 @@ _repository of ascii art_
 
 <table>
 <tr>
-<td align="center"><a href=".img/agatha/hello.png"><img src=".img/agatha/hello_thumb.png" alt="hello.txt"></a><br><a href="agatha/hello.txt?raw=true">hello.txt</a></td>
-<td align="center"><a href=".img/agatha/tarot-hermit.png"><img src=".img/agatha/tarot-hermit_thumb.png" alt="tarot-hermit.txt"></a><br><a href="agatha/tarot-hermit.txt?raw=true">tarot-hermit.txt</a></td>
-<td align="center"><a href=".img/agatha/tarot-nineswords.png"><img src=".img/agatha/tarot-nineswords_thumb.png" alt="tarot-nineswords.txt"></a><br><a href="agatha/tarot-nineswords.txt?raw=true">tarot-nineswords.txt</a></td>
-<td align="center"><a href=".img/agatha/tarot-tower.png"><img src=".img/agatha/tarot-tower_thumb.png" alt="tarot-tower.txt"></a><br><a href="agatha/tarot-tower.txt?raw=true">tarot-tower.txt</a></td>
+<td align="center"><a href=".img/agatha/hello.png"><img src=".img/agatha/hello_thumb.png" alt="hello.txt"></a><br><a href="https://raw.githubusercontent.com/agathanon/ascii/HEAD/agatha/hello.txt">hello.txt</a></td>
+<td align="center"><a href=".img/agatha/tarot-hermit.png"><img src=".img/agatha/tarot-hermit_thumb.png" alt="tarot-hermit.txt"></a><br><a href="https://raw.githubusercontent.com/agathanon/ascii/HEAD/agatha/tarot-hermit.txt">tarot-hermit.txt</a></td>
+<td align="center"><a href=".img/agatha/tarot-nineswords.png"><img src=".img/agatha/tarot-nineswords_thumb.png" alt="tarot-nineswords.txt"></a><br><a href="https://raw.githubusercontent.com/agathanon/ascii/HEAD/agatha/tarot-nineswords.txt">tarot-nineswords.txt</a></td>
 </tr>
 <tr>
-<td align="center"><a href=".img/agatha/wtc25.png"><img src=".img/agatha/wtc25_thumb.png" alt="wtc25.txt"></a><br><a href="agatha/wtc25.txt?raw=true">wtc25.txt</a></td>
-<td align="center"><a href=".img/agatha/zyn-v2.png"><img src=".img/agatha/zyn-v2_thumb.png" alt="zyn-v2.txt"></a><br><a href="agatha/zyn-v2.txt?raw=true">zyn-v2.txt</a></td>
-<td align="center"><a href=".img/agatha/zyn.png"><img src=".img/agatha/zyn_thumb.png" alt="zyn.txt"></a><br><a href="agatha/zyn.txt?raw=true">zyn.txt</a></td>
+<td align="center"><a href=".img/agatha/tarot-tower.png"><img src=".img/agatha/tarot-tower_thumb.png" alt="tarot-tower.txt"></a><br><a href="https://raw.githubusercontent.com/agathanon/ascii/HEAD/agatha/tarot-tower.txt">tarot-tower.txt</a></td>
+<td align="center"><a href=".img/agatha/wtc25.png"><img src=".img/agatha/wtc25_thumb.png" alt="wtc25.txt"></a><br><a href="https://raw.githubusercontent.com/agathanon/ascii/HEAD/agatha/wtc25.txt">wtc25.txt</a></td>
+<td align="center"><a href=".img/agatha/zyn-v2.png"><img src=".img/agatha/zyn-v2_thumb.png" alt="zyn-v2.txt"></a><br><a href="https://raw.githubusercontent.com/agathanon/ascii/HEAD/agatha/zyn-v2.txt">zyn-v2.txt</a></td>
+</tr>
+<tr>
+<td align="center"><a href=".img/agatha/zyn.png"><img src=".img/agatha/zyn_thumb.png" alt="zyn.txt"></a><br><a href="https://raw.githubusercontent.com/agathanon/ascii/HEAD/agatha/zyn.txt">zyn.txt</a></td>
 </tr>
 </table>
 
@@ -25,7 +27,7 @@ _repository of ascii art_
 
 <table>
 <tr>
-<td align="center"><a href=".img/psyk0/pissflection.png"><img src=".img/psyk0/pissflection_thumb.png" alt="pissflection.txt"></a><br><a href="psyk0/pissflection.txt?raw=true">pissflection.txt</a></td>
+<td align="center"><a href=".img/psyk0/pissflection.png"><img src=".img/psyk0/pissflection_thumb.png" alt="pissflection.txt"></a><br><a href="https://raw.githubusercontent.com/agathanon/ascii/HEAD/psyk0/pissflection.txt">pissflection.txt</a></td>
 </tr>
 </table>
 

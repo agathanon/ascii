@@ -1,6 +1,9 @@
 #!/usr/bin/env python3
 """Rewrite the gallery section of README.md from a list of art files (artist/title.txt)."""
 import argparse
+import re
+import subprocess
+import sys
 from html import escape
 from itertools import groupby
 from pathlib import Path
@@ -13,7 +16,23 @@ p.add_argument("files", nargs="*")
 p.add_argument("--img-dir", default=".img")
 p.add_argument("--cols", type=int, default=3)
 p.add_argument("--readme", default="README.md")
+p.add_argument("--repo", help="owner/name on GitHub; detected from the origin remote if omitted")
+p.add_argument("--branch", default="HEAD", help="branch for raw links; HEAD means the default branch")
 a = p.parse_args()
+
+def detect_repo():
+    try:
+        url = subprocess.run(["git", "remote", "get-url", "origin"], check=True,
+                             capture_output=True, text=True).stdout.strip()
+    except (OSError, subprocess.CalledProcessError):
+        url = ""
+    m = re.search(r"github\.com[:/]+([^/]+/[^/]+?)(?:\.git)?/?$", url)
+    if not m:
+        sys.exit("gallery: could not work out the GitHub repo from the origin remote; "
+                 "run: make gallery REPO=owner/name")
+    return m.group(1)
+
+raw_base = f"https://raw.githubusercontent.com/{a.repo or detect_repo()}/{a.branch}"
 
 art = sorted(Path(f) for f in a.files)
 img_dir = Path(a.img_dir)
@@ -38,11 +57,10 @@ for png in img_dir.glob("*/*_thumb.png"):
 
 def cell(f):
     # Thumbnail links to the full-size PNG; the filename below links to the raw .txt
-    # (?raw=true makes GitHub redirect the relative link to the raw file)
     name = escape(f.name)
     return (f"<td align=\"center\"><a href=\"{quote(full(f).as_posix())}\">"
             f"<img src=\"{quote(thumb(f).as_posix())}\" alt=\"{name}\"></a>"
-            f"<br><a href=\"{quote(f.as_posix())}?raw=true\">{name}</a></td>")
+            f"<br><a href=\"{raw_base}/{quote(f.as_posix())}\">{name}</a></td>")
 
 sections = []
 for artist, files in groupby(art, key=lambda f: f.parent.name):
