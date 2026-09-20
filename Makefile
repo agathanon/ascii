@@ -1,7 +1,7 @@
 # Directories to leave out of the gallery (hidden dirs like .img are skipped automatically)
 EXCLUDE := templates wip
 IMG_DIR := .img
-COLS    := 3
+COLS    := 4
 WIDTH   := 150
 A2M2A   := /usr/bin/a2m2a
 # For the raw .txt links. REPO (owner/name) is read from the origin remote when empty.
